@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:columnCount="4"
+    tools:context="com.example.administrateur.gridlayout.MainActivity">
+
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text=""
+        android:textSize="30dp"
+        android:layout_columnSpan="4"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:layout_gravity="right"
+        />
+
+    <Button
+        android:id="@+id/btn7"
+        style="@style/touche"
+        android:text="7"
+        />
+
+    <Button
+        android:id="@+id/btn8"
+        style="@style/touche"
+        android:text="8"
+        />
+
+    <Button
+        android:id="@+id/btn9"
+        style="@style/touche"
+        android:text="9"
+
+        />
+
+    <Button
+        android:id="@+id/btnDiv"
+        style="@style/touche_operation"
+        android:text="/"
+
+        />
+
+    <Button
+        android:id="@+id/btn4"
+        style="@style/touche"
+        android:text="4"
+
+        />
+
+    <Button
+        android:id="@+id/btn5"
+        style="@style/touche"
+        android:text="5"
+
+        />
+
+    <Button
+        android:id="@+id/btn6"
+        style="@style/touche"
+        android:text="6"
+
+        />
+
+    <Button
+        android:id="@+id/btnMult"
+        style="@style/touche_operation"
+        android:text="*"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        style="@style/touche"
+        android:text="1"
+
+        />
+
+    <Button
+        android:id="@+id/btn2"
+        style="@style/touche"
+        android:text="2"
+
+        />
+
+    <Button
+        android:id="@+id/btn3"
+        style="@style/touche"
+        android:text="3"
+
+        />
+
+    <Button
+        android:id="@+id/btnSous"
+        style="@style/touche_operation"
+        android:text="-"
+        />
+
+    <Button
+        android:id="@+id/btnPoint"
+        style="@style/touche_operation"
+        android:text="."
+
+        />
+
+    <Button
+        android:id="@+id/btn0"
+        android:text="0"
+        style="@style/touche"
+        />
+
+    <Button
+        android:id="@+id/btnEgal"
+        android:text="="
+        style="@style/touche_operation"
+        android:onClick="toucheEgal"
+        />
+    <Button
+        android:id="@+id/btnPlus"
+        android:text="+"
+        style="@style/touche_operation"
+        />
+    <Button
+        android:id="@+id/btnClear"
+        android:text="C"
+        style="@style/touche_operation"
+        android:onClick="toucheClear"
+        />
+
+</GridLayout>

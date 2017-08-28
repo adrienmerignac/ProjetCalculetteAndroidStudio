@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="touche">
+
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/touche</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:onClick">touche</item>
+
+    </style>
+
+    <!-- Le style touche_operation hérite du style touche -->
+
+    <style name="touche_operation" parent="touche">
+
+        <item name="android:background">@drawable/touche_operation</item>
+
+    </style>
+
+</resources>
